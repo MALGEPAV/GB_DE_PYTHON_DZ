@@ -1,3 +1,6 @@
+import fractions
+
+
 def my_gcd_non_neg(a: int, b: int) -> int:  # for non-negative numbers only
     if b == 0:
         return a
@@ -46,5 +49,14 @@ def frac_mult(frac1: str, frac2: str) -> str:
     return f"{a_mult}/{b_mult}"
 
 
+print("My functions:")
 print(f"2/3-4/5={frac_sum('2/3', '-4/5')}")
 print(f"-2/3*3/4={frac_mult('-2/3', '3/4')}")
+print()
+print("Built-in functions:")
+f1 = fractions.Fraction(2, 3)
+f2 = fractions.Fraction(4, 5)
+print(f"{f1}-{f2}={f1 - f2}")
+f1 = fractions.Fraction(-2, 3)
+f2 = fractions.Fraction(3, 4)
+print(f"{f1}*{f2}={f1*f2}")
