@@ -24,7 +24,7 @@ def packing_options(things_with_weights: dict, weight_capacity: int) -> list:
 
 dict_of_things = {"book": 500, "tooth brush": 30, "spoon": 50, "tent": 3000, "cup": 100,
                   "rope": 1000, "canned food": 300, "matches": 20, "phone": 200, "knife": 300}
-capacity = 3000
+capacity = 1000
 
 print("All possible packing options:")
 for opt in packing_options(dict_of_things, capacity):
