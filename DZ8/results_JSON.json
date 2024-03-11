@@ -1,0 +1,42 @@
+[
+    {
+        "Path": "test_dir/file0",
+        "Type": "File",
+        "Size": 5
+    },
+    {
+        "Path": "test_dir/subdir01",
+        "Type": "Directory",
+        "Size": 7
+    },
+    {
+        "Path": "test_dir/subdir02",
+        "Type": "Directory",
+        "Size": 34
+    },
+    {
+        "Path": "test_dir/subdir01/file1",
+        "Type": "File",
+        "Size": 7
+    },
+    {
+        "Path": "test_dir/subdir02/file2",
+        "Type": "File",
+        "Size": 10
+    },
+    {
+        "Path": "test_dir/subdir02/subdir21",
+        "Type": "Directory",
+        "Size": 12
+    },
+    {
+        "Path": "test_dir/subdir02/subdir21/file3",
+        "Type": "File",
+        "Size": 7
+    },
+    {
+        "Path": "test_dir/subdir02/subdir21/file4",
+        "Type": "File",
+        "Size": 5
+    }
+]

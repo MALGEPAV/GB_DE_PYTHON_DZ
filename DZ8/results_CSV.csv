@@ -1,0 +1,9 @@
+Path,Type,Size
+test_dir/file0,File,5
+test_dir/subdir01,Directory,7
+test_dir/subdir02,Directory,34
+test_dir/subdir01/file1,File,7
+test_dir/subdir02/file2,File,10
+test_dir/subdir02/subdir21,Directory,12
+test_dir/subdir02/subdir21/file3,File,7
+test_dir/subdir02/subdir21/file4,File,5
